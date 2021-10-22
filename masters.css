@@ -1,0 +1,165 @@
+a{
+  text-decoration: none;
+}
+p{
+  font-family: 'Playfair Display', serif;
+}
+#header{
+  background-image: url(https://cs.pikabu.ru/post_img/big/2013/11/18/8/1384775795_1026843613.jpg);
+  height: 240px;
+  padding-bottom: 10px;
+  border-radius: 0 0 30px 30px;
+}
+.header_img_logo{
+  float: left;
+  padding-top: 25px;
+}
+
+.offcanvas-body{
+  height: 800px;
+}
+.header_text_top{
+  font-family: normal;
+  font-size: 16px;
+}
+.header_text_top a{
+  padding-right: 25px;
+  padding-left: 20px;
+  text-decoration: none;
+}
+.header_text_top a:hover{
+  color: red;
+}
+.header_text_top button{
+  border: none;
+  background-color: white;
+  text-decoration: none;
+  color: Royal blue (dark);
+}
+.header_text_top button:hover{
+  background-color: Royal blue (dark);
+  color: white;
+}
+.nav-item{
+  padding-right: 20px;
+  font-size: 25px;
+}
+.nav-link:hover{
+  text-decoration: underline;
+}
+#footer{
+  padding-top: 50px;
+}
+#footer_1{
+  border-radius: 20px 20px 0 0;
+  background-color: #f5f0f0;
+}
+.footer_texts_1{
+  font-size: 20px;
+}
+.footer_texts_1 p{
+  font-family: normal;
+}
+.footer_texts_1 a{
+  text-decoration: none;
+}
+.footer_texts_2{
+  font-size: 20px;
+}
+.footer_texts_2 p{
+  padding-left: 10px;
+}
+.socnet{
+  font-size: 25px;
+  padding-right: 10px;
+  color: #f2e9e9;
+}
+
+/*Here is paragraph_1 css: */
+#paragraph_1{
+  background-image: url(https://akaberlin.com/wp-content/uploads/2018/07/banner-1.jpg);
+  background-size: cover;
+  height: 750px;
+}
+.container p{
+  padding-top: 40px;
+  text-align: center;
+  width: 500px;
+  text-transform: uppercase;
+}
+.paragraphs_more{
+  padding-bottom: 50px;
+}
+
+/*Here is paragraph_3 css: */
+#paragraph_3{
+  padding-top: 30px;
+}
+#paragraph_3_abouts{
+  padding-top: 100px;
+  padding-bottom: 80px;
+}
+.paragraph_3_image{
+  border-radius: 10px;
+  box-shadow: 0px 0px 30px 2px #000;
+}
+.paragraph_3_text{
+   width: 370px; 
+   font-size: 15px; 
+   padding-top: 30px;
+}
+h4 a{
+  text-decoration: none;
+}
+h4 a:hover{
+  color: red;
+  text-decoration: none;
+}
+body
+ {
+      background: url(https://papers.co/wallpaper/papers.co-am73-smoke-white-bw-abstract-fog-art-illust-29-wallpaper.jpg) no-repeat;
+      -moz-backrground-size:100%;
+      -webkit-background-size:100%;
+      -o-background-size:100%;
+      background-size:100%;
+      background-attachment: fixed; 
+      background-color:white;
+    }
+    .container {
+      position: relative;
+      width: auto;
+      margin: 5px;
+    } 
+    .image {
+      display: block;
+      width:100%;
+      height: auto;
+      align-content: center;
+    }
+    .overlay {
+      position: absolute;
+      bottom: 40%;
+      left: 0;
+      right: 100%;
+      background-color: black;
+      overflow: hidden;
+      width: 80%;
+      height:0;
+      transition: .5s ease;
+    }
+    .container:hover .overlay {
+      bottom: 10px;
+      height: 70%;
+      width: 100%;
+    }
+    .outer{
+	    display:grid;
+	    grid-template-columns: 1fr 1fr 1fr;
+	    grid-template-rows: repeat(2,auto);
+    }
+    .nn{
+        text-align: center; 
+        color: rgb(12, 10, 10);
+        font-family: 'Courier New', Courier, monospace;
+        color:gray;
+    }
